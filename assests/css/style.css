@@ -132,8 +132,11 @@ background: linear-gradient(133deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255,
     -webkit-mask-composite: xor;
     pointer-events: none;
 }
-.cards1:hover svg path{
+.cards_one:hover svg path{
     fill: chocolate;
+}
+.cards_two:hover svg path{
+    stroke:chocolate ;
 }
 .boxs:hover{
     transform: scale(1.05);
